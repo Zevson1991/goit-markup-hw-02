@@ -6,14 +6,17 @@
   --color-active-button: #188ce8;
   --color-background-hero-title: #2f303a;
   --color-portfolio-background-button: #f5f4fa;
+  --color-address-: #FFFFFF99; 
 }
 
 body {
   color: var(--color-primary);
   font-family: "Roboto", "sans-serif";
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+}
+
+li {
+  list-style-type: none;
 }
 
 .logo-link {
@@ -72,6 +75,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -84,6 +88,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 .button:hover {
@@ -101,10 +106,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .main-subtitle {
   color: var(--color-secondary);
+  letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємось */
@@ -114,6 +121,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
@@ -123,18 +131,21 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .workers {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .professions {
   color: var(--color-secondary);
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Подвал он же footer */
@@ -151,10 +162,12 @@ body {
 }
 
 .address {
-  color: var(--color-text-button);
+  color: var(--color-portfolio-background-button);
   background-color: var(--color-background-hero-title);
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 .address:hover {
@@ -166,10 +179,12 @@ body {
 }
 
 .footer-kontakts {
-  color: var(--color-text-button);
+  color: var(--color-address-);
   background-color: var(--color-background-hero-title);
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 .footer-kontakts:hover {
@@ -192,6 +207,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .button-portfolio:focus {
@@ -207,13 +223,14 @@ body {
 /* Портфоліо список з зображеннями */
 
 .progects {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-list {
   color: var(--color-secondary);
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
