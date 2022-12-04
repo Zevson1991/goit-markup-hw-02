@@ -15,6 +15,12 @@ body {
   font-size: 14px;
 }
 
+/* Header */
+
+.header {
+
+}
+
 .list {
   list-style-type: none;
 }
@@ -67,9 +73,12 @@ body {
   color: var(--color-background-button);
 }
 
+.main-section {
+  background-color: var(--color-background-hero-title);
+}
+
 .hero-title {
   color: var(--color-text-button);
-  background-color: #2f303a;
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
@@ -89,6 +98,19 @@ body {
   line-height: 1.87;
   font-weight: 700;
   letter-spacing: 0.06em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .button:hover {
@@ -126,6 +148,14 @@ body {
 
 /* Наша команда */
 
+.section-team {
+  background-color: var(--color-portfolio-background-button);
+}
+
+.team-item {
+  background-color: var(--color-text-button);
+}
+
 .main-team {
   font-weight: 700;
   font-size: 36px;
@@ -150,9 +180,12 @@ body {
 
 /* Подвал он же footer */
 
+.footer {
+  background-color: var(--color-background-hero-title);
+}
+
 .logo-link-footer {
   color: var(--color-text-button);
-  background-color: var(--color-background-hero-title);
   font-family: "raleway", "sans-serif";
   text-decoration: none;
   font-size: 26px;
@@ -163,7 +196,6 @@ body {
 
 .address {
   color: var(--color-portfolio-background-button);
-  background-color: var(--color-background-hero-title);
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
@@ -180,7 +212,6 @@ body {
 
 .footer-kontakts {
   color: var(--color-address-);
-  background-color: var(--color-background-hero-title);
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
